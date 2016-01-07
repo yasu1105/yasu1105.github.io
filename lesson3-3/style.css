@@ -1,0 +1,463 @@
+header{
+  background-color: #f8f8f8;
+}
+
+.header-image{
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+header li{
+  float: left;
+  padding-right: 15px;
+  padding-left: 15px;
+  list-style: none;
+}
+
+.col-md-8.col-xs-8.h-image{
+  font-family: "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro";
+  font-size: 20px;
+  color: #333333;
+  margin-top: 38px;
+  float: right;
+}
+
+header ul{
+  float: right;
+}
+
+.article1{
+  background-image: url(./img/woman_image.png);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 750px;
+}
+
+.article1 h1{
+  float: left;
+  font-size: 57px;
+  text-align: center;
+  padding-top: 80px;
+  padding-left: 70px;
+  font-family: "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro";
+  font-weight: bold;
+}
+
+.article2{
+  background-color: #f8f8f8;
+}
+
+.article2 img{
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.article2 h2{
+  background-color: #dfdfdf;
+  text-align: center;
+  color: #1a1a1a;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 28px;
+  font-family: "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro";
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.article2 h3{
+  padding-top: 24px;
+  text-align: center;
+  color: #1a1a1a;
+  font-size: 18px;
+  font-family: "Myriad Pro Bold";
+  font-weight: bold;
+}
+
+.article2 p{
+  text-align: center;
+  color: #1a1a1a;
+  font-size: 18px;
+  font-family: "Myriad Pro";
+}
+
+.article3 h2{
+  background-color: #dfdfdf;
+  text-align: center;
+  color: #1a1a1a;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 28px;
+  font-family: "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro";
+  font-weight: bold;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+.article3 p{
+  margin-top: 30px;
+  text-align: justify; text-justify: distribute-all-lines;
+  color: #1a1a1a;
+  font-size: 16px;
+  font-family: "Century Gothic Regular";
+}
+
+.nikkei{
+  width: 100%;
+}
+
+.application{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+
+.article4{
+  margin-bottom: 50px;
+}
+
+.article4 iframe{
+  height: 210px;
+  width: 100%;
+}
+
+.article4 h4{
+  font-size: 18px;
+  color: #404040;
+  font-family: "Myriad Pro Bold";
+  font-weight: bold;
+}
+
+.article4 p{
+  font-size: 14px;
+  font-family: "Comic Sans MS Regular";
+  color: #1a1a1a;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.article4 ul{
+  background-color: red;
+}
+
+.article4 li{
+  float: left;
+  list-style: none;
+  font-size: 13px;
+  font-family: "Myriad Pro Bold";
+  font-weight: bold;
+  color: #1a1a1a;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.article4 span{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+footer{
+  height: 60px;
+  background-color: #eaeaea;
+}
+
+footer ul{
+  float: left;
+}
+
+footer li{
+  list-style: none;
+  float: right;
+  font-size: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 23px;
+}
+
+/*media queryのスタート*/
+
+@media screen and (max-width: 1024px){
+.article2 h2{
+  font-size: 23px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+
+.article2 h3{
+  font-size: 23px;
+  padding-top: 20px;
+  margin-top: 24px;
+}
+
+.article4 h4{
+  font-size: 23px;
+}
+
+.article3 h2{
+  font-size: 23px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 56px;
+  margin-bottom: 16px;
+}
+
+.article1{
+  height: 563px;
+}
+
+.article1 h1{
+  font-size: 43px;
+  padding-top: 60px;
+  padding-left: 53px;
+}
+
+.col-md-8.col-xs-8.h-image{
+  font-size: 18px;
+  margin-top: 25px;
+}
+
+.application{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.article4 p{
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+
+.article4{
+  margin-bottom: 40px;
+}
+
+}
+
+@media screen and (max-width: 640px){
+.article2 h2{
+  font-size: 16px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.article2 h3{
+  font-size: 16px;
+  padding-top: 12px;
+  margin-top: 15px;
+}
+
+.article2 p{
+  font-size: 14px;
+}
+
+.article4 h4{
+  font-size: 16px;
+}
+
+.article3 p{
+  font-size: 14px;
+}
+
+.article4 p{
+  font-size: 14px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.article1{
+  height: 375px;
+}
+
+.article1 h1{
+  font-size: 29px;
+  padding-top: 40px;
+  padding-left: 35px;
+}
+
+.article3 h2{
+  font-size: 16px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+
+header li{
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.col-md-8.col-xs-8.h-image{
+  font-size: 15px;
+  margin-top: 25px;
+}
+
+.application{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.article4{
+  margin-bottom: 25px;
+}
+
+}
+
+@media screen and (max-width: 480px){
+.article2 h2{
+  font-size: 13px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-top: 9px;
+  margin-bottom: 15px;
+}
+
+.article2 h3{
+  font-size: 13px;
+  padding-top: 7px;
+}
+
+.article2 p{
+  font-size: 11px;
+}
+
+.article4 h4{
+  font-size: 13px;
+}
+
+.article3 p{
+  font-size: 11px;
+  margin-top: 9px;
+}
+
+.article4 p{
+  font-size: 11px;
+  margin-top: 9px;
+  margin-bottom: 15px;
+}
+
+.article3 h2{
+  font-size: 13px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-top: 21px;
+  margin-bottom: 6px;
+}
+
+.article1 h1{
+  font-size: 24px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+}
+
+header li{
+  padding-right: 3px;
+  padding-left: 3px;
+}
+
+.col-md-8.col-xs-8.h-image{
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.application{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.article4{
+  margin-bottom: 15px;
+}
+
+}
+
+@media screen and (max-width: 320px){
+.article2 h2{
+  font-size: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+
+.article2 h3{
+  font-size: 10px;
+  padding-top: 5px;
+}
+
+.article2 p{
+  font-size: 8px;
+}
+
+.article4 h4{
+  font-size: 10px;
+}
+
+.article4 p{
+  font-size: 8px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+
+.article3 h2{
+  font-size: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-top: 14px;
+  margin-bottom: 4px;
+}
+
+.article3 p{
+  font-size: 8px;
+  margin-top: 6px;
+}
+
+.article1 h1{
+  font-size: 15px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+.article1{
+  height: 250px;
+}
+
+.application img{
+  width: 320px;
+}
+
+footer li{
+  font-size: 8px;
+}
+
+.header-image{
+  margin-bottom: 0px;
+  margin-left: 90px;
+  width: 150%;
+}
+
+.col-md-8.col-xs-8.h-image{
+  font-size: 10px;
+  margin-top: 0px;
+  margin-right: 35px;
+  padding-right: 50px;
+}
+
+.application{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.article4{
+  margin-bottom: 10px;
+}
+
+}
+
